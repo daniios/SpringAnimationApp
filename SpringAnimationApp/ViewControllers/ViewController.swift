@@ -24,6 +24,7 @@ final class ViewController: UIViewController {
     private let springAnimations = Animation.getAnimations()
     private var animationIndexToPlay = 0
     
+    // MARK: - Lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,6 +34,7 @@ final class ViewController: UIViewController {
         
     }
 
+    // MARK: - IBActions
     @IBAction func startSpringAnimation() {
         setAnimationInfo(springAnimations, for: animationIndexToPlay)
         playAnimation(springAnimations, for: animationIndexToPlay)
