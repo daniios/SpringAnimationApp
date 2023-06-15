@@ -11,9 +11,7 @@ import SpringAnimation
 final class DataStorage {
     
     static let shared = DataStorage()
-    
     let presets = AnimationPreset.allCases
-    
     let curves = AnimationCurve.allCases
     
     private init() {}
