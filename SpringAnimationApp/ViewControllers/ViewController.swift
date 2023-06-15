@@ -31,7 +31,6 @@ final class ViewController: UIViewController {
         setAnimationInfo(springAnimations, for: animationIndexToPlay)
         springButton.setTitle(springAnimations[animationIndexToPlay].title,
                               for: .normal)
-        
     }
 
     // MARK: - IBActions
@@ -64,6 +63,4 @@ final class ViewController: UIViewController {
         durationLabel.text = animations[index].durationText
         delayLabel.text = animations[index].delayText
     }
-    
 }
-
