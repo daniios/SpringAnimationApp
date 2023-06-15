@@ -30,7 +30,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6c-sJ-XCl">
-                                <rect key="frame" x="89.666666666666671" y="520" width="195.66666666666663" height="34.333333333333371"/>
+                                <rect key="frame" x="60" y="520" width="255" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Start Spring Animation"/>
                                 <connections>
@@ -84,6 +84,7 @@
                             <constraint firstItem="b6c-sJ-XCl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P2t-C0-d3q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7rB-8T-1nc" secondAttribute="trailing" constant="60" id="Td1-UA-mf5"/>
                             <constraint firstItem="S1d-3r-Jrd" firstAttribute="top" secondItem="7rB-8T-1nc" secondAttribute="bottom" constant="52" id="dLM-wE-oAH"/>
+                            <constraint firstItem="b6c-sJ-XCl" firstAttribute="width" secondItem="7rB-8T-1nc" secondAttribute="width" id="k7T-Pw-X7x"/>
                         </constraints>
                     </view>
                     <connections>

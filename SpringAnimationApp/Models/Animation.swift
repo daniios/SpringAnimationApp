@@ -32,8 +32,8 @@ extension Animation {
         
         for _ in 0..<upperBound {
             let animation = Animation(
-                title: titles[Int.random(in: 0..<upperBound)],
-                curve: curves[Int.random(in: 0..<upperBound)],
+                title: titles[Int.random(in: 0..<upperBound)].rawValue,
+                curve: curves[Int.random(in: 0..<upperBound)].rawValue,
                 force: CGFloat.random(in: 1...5),
                 duration: CGFloat.random(in: 1...3),
                 delay: CGFloat.random(in: 0.5...2)
